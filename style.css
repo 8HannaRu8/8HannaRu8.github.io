@@ -304,11 +304,40 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
+.price_container {
+    border: 1px solid #E3E1D5;
+    width: 332px;
+    height: 282px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.price_type_btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+    border: none;
+}
 
+.all_price {
+    margin-bottom: 60px;
+}
+
+.price_header {
+    text-align: right;
+}
+.price_header_h2 {
+    margin-bottom: 38px;
+}
+.price_btn {
+    margin-bottom: 39px;
+}
 /*contacts-section styles*/
 .contacts {
     width: 100%;
@@ -333,8 +362,6 @@ body {
     line-height: 52px;
 }
 
-.contact_btn_1 {
-}
 .contact_img {
     display: block;
 }
